@@ -47,7 +47,6 @@ class MLClassifiers:
 
             predicted = text_clf.predict(x_test)
             acc = metrics.accuracy_score(y_test, predicted)
-            print(name + ' accuracy = ' + str(acc * 100) + '%')
             acc_field = pd.DataFrame([[name, acc * 100]], columns=result_cols)
             result_frame = result_frame.append(acc_field)
 

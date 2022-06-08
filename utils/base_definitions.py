@@ -11,3 +11,5 @@ UNWANTED_STRING_VALUES: list = [u'&bull;', u'&lsquo;', u',', u'?', u'!', u'"', u
                                 u'’', u'/', u'<', u'>', u'|', u'“', ';', '&', '(', ')', '=',
                                 '+', '-', '\\', '*', ':', '~', '@'
                                 ]
+
+W2V_WORKER_COUNT: int = 4
